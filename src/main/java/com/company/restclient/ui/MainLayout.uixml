@@ -23,6 +23,10 @@
         <TextField x:name="txtCustomerId">
             <x:constraints width="0px" height="0px" flex-grow="0.0" />
         </TextField>
+        <Button x:name="button3" text="Create customer">
+            <x:constraints width="0px" height="0px" flex-grow="0.0" />
+            <x:event>click.onComponentEvent</x:event>
+        </Button>
     </HorizontalLayout>
     <Grid x:name="grid">
         <x:typeArguments>
